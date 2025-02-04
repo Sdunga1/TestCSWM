@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", serif;
+}
+
+.card-item {
+  height: 11rem;
+  width: 12rem;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 12px;
+  backdrop-filter: blur(30px);
+  background: radial-gradient(
+    circle at top,
+    #61605f 0%,
+    #050505 57%,
+    #959190 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.card-item .user-image {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  margin-bottom: 11px;
+  border: 2.75px solid #fff;
+  padding: 1px;
+}
+
+.card-item .user-profession {
+  font-size: 0.8rem;
+  color: #e3e3e3;
+  font-weight: 300;
+  margin: 1px 0 10px;
+}
+
+.card-item .message-button {
+  font-size: 0.9rem;
+  padding: 4px 20px;
+  color: #030728;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid transparent;
+}
+
+.card-item .message-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #fff;
+  color: #fff;
+}
